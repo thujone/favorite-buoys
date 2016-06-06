@@ -1,6 +1,6 @@
 Favorite Buoys is a demo using ReactJS, Google Maps, Gulp, Webpack, ES6, and Babel.
 
-This is my first React app.
+This is my first React app. Actually, all of this is new to me except for ES6.
 
 The app loads in buoy data from the National Data Buoy Center. It allows users to view all buoys within a 300-mile radius
 of Boston and choose favorite buoys that they can view on a Google Map. The faved buoys are stored via cookies.
