@@ -3,10 +3,10 @@ Favorite Buoys is a demo using ReactJS, Google Maps, Gulp, Webpack, ES6, and Bab
 This is my first React app. Actually, all of this is new to me except for ES6.
 
 The app loads in buoy data from the National Data Buoy Center. It allows users to view all buoys within a 300-mile radius
-of Boston and choose favorite buoys that they can view on a Google Map. The faved buoys are stored via cookies.
+of Boston and choose favorite buoys that they can view on a Google Map. The faved buoys are stored using cookies.
 
 The app is not responsive and is optimized for viewports of 1100px width or greater. It has only been checked on Chrome;
-there may be layout or javascript issues on other browsers. Generally, the layout is fairly rough. I focused more on the React components. Also, I originally had grander plans for the Google Map. There's certainly a lot of opportunity to make the map more informative and interactive.
+there may be layout or javascript issues on other browsers. Generally, the layout is fairly rough. I focused more on the scripting and setup of the React components. I also had grander plans for the map, but just getting the markers to appear and disappear correctly was quite a task. There's certainly a lot of opportunity to make the map more informative and interactive.
 
 Unfortunately, the RSS feed server does not support cross-origin requests, and so a Chrome Add-On is required to make the app
 work. I realize this isn't a good solution, but I don't think the cross-origin problem was meant to be a part of the challenge,
