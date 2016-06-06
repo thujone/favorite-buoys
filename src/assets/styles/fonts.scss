@@ -1,0 +1,13 @@
+//
+// Load custom font, why not.
+//
+
+@font-face {
+  font-family: 'oswald';
+  //src: url('/favorite-buoys/fonts/oswald-regular-webfont.woff2') format('woff2'),
+  //     url('/favorite-buoys/fonts/oswald-regular-webfont.woff') format('woff');
+  src: url('/fonts/oswald-regular-webfont.woff2') format('woff2'),
+       url('/fonts/oswald-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

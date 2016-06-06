@@ -1,0 +1,197 @@
+//
+// Font stack variables
+//
+
+$header-font-stack: oswald, Georgia, serif;
+$body-font-stack: Helvetica-Neue, Helvetica, sans-serif;
+
+
+//
+// Colors
+//
+
+$header-color: #749;
+$text-color: #749;
+$link-color: #95B;
+$link-hover-color: #A9E;
+$border-color: #749;
+$checked-bg-color: #FEE;
+
+
+//
+// General rules
+//
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $text-color;
+}
+
+h1 {
+  float: left;
+  display: block;
+  width: 200px;
+  font: 3.6rem/.3 $header-font-stack;
+  color: $header-color;
+  margin-right: 5.9em;
+}
+
+h2 {
+  float: left;
+  display: block;
+  font: 3.2rem/.3 $header-font-stack;
+  font-variant: small-caps;
+  color: $header-color;
+}
+
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+//
+// FavoriteBuoys
+//
+
+#favorite-buoys {
+  margin: auto;
+  width: 1100px;
+}
+
+
+//
+// BuoyList
+//
+
+#buoy-list {
+  float: left;
+  clear: left;
+  height: 500px;
+  overflow-y: auto;
+  border-bottom: 1px dashed $border-color;
+}
+
+table {
+  border: 1px dashed $border-color;
+  border-bottom: none;
+
+  th {
+    font: 1.8rem/1.6 $header-font-stack;
+    color: $header-color;
+    text-align: left;
+    border-bottom: 1px dashed $border-color;
+    padding: .25em;
+
+    &.th-name {
+      width: 360px;
+    }
+
+    &.th-latitude {
+      width: 50px;
+    }
+
+    &.th-longitude {
+      width: 50px;
+    }
+
+    &.th-fave {
+      width: 40px;
+    }
+  }
+  tr {
+    &.checked {
+      background-color: $checked-bg-color;
+    }
+
+    td {
+      font: 1.2rem/1.4 $body-font-stack;
+      padding: .25em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &.td-name {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 1px;
+      }
+
+      &.td-fave {
+        text-align: center;
+      }
+    }
+  }
+}
+
+input[type=number] {
+  width: 40px;
+  font-size: .95rem;
+  color: $text-color;
+}
+
+button {
+  font: .95rem $body-font-stack;
+  color: $text-color;
+  margin-left: 10px;
+}
+
+input[type=radio] {
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+
+.lead-time {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.item-amount,
+.allowance-label,
+.allowance-amount {
+  text-align: right;
+  padding: 10px;
+}
+
+.shipping-option {
+  margin-bottom: 1.25em;
+}
+
+.shipping-method {
+  margin-bottom: 4px;
+}
+
+.estimated-arrival {
+  margin-left: 25px;
+  font-size: .75em;
+  margin-top: 0;
+}
+
+
+//
+// BuoyMap
+//
+
+#buoy-map {
+  width: 500px;
+  height: 500px;
+  margin-left: 25px;
+  float: left;
+
+  .marker {
+    position: absolute;
+    border: 3px solid #d57;
+    background-color: #fff;
+    color: #35b;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 2px 0;
+  }
+}

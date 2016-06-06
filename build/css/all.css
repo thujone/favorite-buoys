@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'oswald';
+  src: url("/fonts/oswald-regular-webfont.woff2") format("woff2"), url("/fonts/oswald-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #749;
+}
+
+h1 {
+  float: left;
+  display: block;
+  width: 200px;
+  font: 3.6rem/0.3 oswald, Georgia, serif;
+  color: #749;
+  margin-right: 5.9em;
+}
+
+h2 {
+  float: left;
+  display: block;
+  font: 3.2rem/0.3 oswald, Georgia, serif;
+  font-variant: small-caps;
+  color: #749;
+}
+
+a {
+  color: #95B;
+}
+
+a:hover {
+  color: #A9E;
+}
+
+#favorite-buoys {
+  margin: auto;
+  width: 1100px;
+}
+
+#buoy-list {
+  float: left;
+  clear: left;
+  height: 500px;
+  overflow-y: auto;
+  border-bottom: 1px dashed #749;
+}
+
+table {
+  border: 1px dashed #749;
+  border-bottom: none;
+}
+
+table th {
+  font: 1.8rem/1.6 oswald, Georgia, serif;
+  color: #749;
+  text-align: left;
+  border-bottom: 1px dashed #749;
+  padding: .25em;
+}
+
+table th.th-name {
+  width: 360px;
+}
+
+table th.th-latitude {
+  width: 50px;
+}
+
+table th.th-longitude {
+  width: 50px;
+}
+
+table th.th-fave {
+  width: 40px;
+}
+
+table tr.checked {
+  background-color: #FEE;
+}
+
+table tr td {
+  font: 1.2rem/1.4 Helvetica-Neue, Helvetica, sans-serif;
+  padding: .25em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table tr td.td-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 1px;
+}
+
+table tr td.td-fave {
+  text-align: center;
+}
+
+input[type=number] {
+  width: 40px;
+  font-size: .95rem;
+  color: #749;
+}
+
+button {
+  font: 0.95rem Helvetica-Neue, Helvetica, sans-serif;
+  color: #749;
+  margin-left: 10px;
+}
+
+input[type=radio] {
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+
+.lead-time {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.item-amount,
+.allowance-label,
+.allowance-amount {
+  text-align: right;
+  padding: 10px;
+}
+
+.shipping-option {
+  margin-bottom: 1.25em;
+}
+
+.shipping-method {
+  margin-bottom: 4px;
+}
+
+.estimated-arrival {
+  margin-left: 25px;
+  font-size: .75em;
+  margin-top: 0;
+}
+
+#buoy-map {
+  width: 500px;
+  height: 500px;
+  margin-left: 25px;
+  float: left;
+}
+
+#buoy-map .marker {
+  position: absolute;
+  border: 3px solid #d57;
+  background-color: #fff;
+  color: #35b;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 2px 0;
+}
