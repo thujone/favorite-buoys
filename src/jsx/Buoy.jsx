@@ -6,7 +6,7 @@ const maxCookieAge = 1000000;
 // A <BuoyList /> contains many <Buoys />. The buoy list is rendered as tabular data.
 const Buoy = React.createClass({
 
-    // Store a buoy's fave in state, so it can be bubbled up to the grandparent for rendering on the map.
+    // Store a buoy fave in state, so it can be bubbled up to the grandparent for rendering on the map.
     getInitialState: function() {
         return {
             fave: this.props.buoy.fave
