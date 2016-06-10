@@ -1,4 +1,4 @@
-Favorite Buoys is a marine forecasting app using ReactJS, Google Maps, Gulp, Webpack, ES6, and Babel.
+Favorite Buoys will be a marine forecasting app using ReactJS, Google Maps, Gulp, Webpack, ES6, and Babel.
 
 
 * Clone the repo. From the home directory, install the node_modules: `npm install`
