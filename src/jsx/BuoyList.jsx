@@ -1,6 +1,7 @@
 import React from 'react'
 import Buoy from './Buoy.jsx';
 
+
 // A <BuoyList /> is a <table> that contains rows of <Buoy /> data.
 // Users can check their favorite buoys, and this data is persisted through cookies.
 const BuoyList = React.createClass({
