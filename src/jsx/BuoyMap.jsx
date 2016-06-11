@@ -4,6 +4,7 @@ import GoogleMap from 'google-map-react';
 import {render} from 'react-dom';
 import BuoyMarker from './BuoyMarker.jsx';
 
+
 // Some default properties required by Google Maps.
 const defaultProps = {
     center: { lat: 42.4, lng: -71 },
