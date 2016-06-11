@@ -1,6 +1,7 @@
 import React, {PropTypes, Component} from 'react';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 
+
 // Various GMaps marker attributes. Some styles are dynamically generated.
 const markerWidth = 22;
 const markerHeight = 22;
