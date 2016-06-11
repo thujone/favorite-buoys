@@ -4,6 +4,7 @@ import ReactCookie from 'react-cookie';
 import BuoyList from './BuoyList.jsx';
 import BuoyMap from './BuoyMap.jsx';
 
+
 const buoyRssUrl = 'http://www.ndbc.noaa.gov/rss/ndbc_obs_search.php?lat=42.4N&lon=71W&radius=300';
 const pollInterval = 300000;  // 5 minutes, which is how often the feed is updated
 const maxCookieAge = 1000000; // Cookie expires after x seconds
